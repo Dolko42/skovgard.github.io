@@ -1,0 +1,403 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/* End of Eric Meyer's CSS Reset */
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+nav,
+section,
+summary {
+    display: block;
+}
+
+body {
+    font: 12px/18px Arial, sans-serif;
+}
+
+.wrapper {
+    min-width: 300px;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+
+/* Header
+-----------------------------------------------------------------------------*/
+.header {
+    height: 150px;
+    background: #FFE680;
+}
+
+
+/* Middle
+-----------------------------------------------------------------------------*/
+.content {}
+
+
+
+
+/* Footer
+-----------------------------------------------------------------------------*/
+.footer {
+    height: 100px;
+    background: #BFF08E;
+}
+
+
+@media screen and (min-width: 240px) {
+
+    .logo {
+        height: 80px;
+        width: auto;
+        opacity: 0.7
+    }
+
+    .logo:hover {
+        opacity: 1;
+    }
+
+    .header {
+        height: 80px;
+        width: auto;
+        background-color: black;
+
+    }
+
+    .nav {
+        margin-top: 5%;
+        margin-right: 5%;
+        float: right;
+        display: grid;
+    }
+
+
+    .nav a {
+        font-size: 80%;
+        color: white;
+        text-align: right;
+        text-decoration: none;
+
+    }
+
+    #all {
+        color: darkred;
+    }
+
+    h1 {
+        font-size: 150%;
+        padding: 1em;
+        color: darkred;
+        text-transform: uppercase;
+        text-align: center;
+
+
+    }
+
+    .row .p {
+        max-width: 70%;
+        text-align: justify;
+        margin-left: 15%;
+        margin-top: 5%;
+        font-size: 130%;
+        font-family: "Roboto Slab"
+    }
+
+    .res2 {
+        width: 90%;
+        margin-left: 5%;
+    }
+
+    .sub {
+        text-decoration: none;
+        padding: 1em;
+        color: black;
+        text-transform: uppercase;
+        border: solid darkred;
+
+
+    }
+
+    .sub:hover {
+        background-color: black;
+        color: white;
+    }
+
+    #sub {
+        margin-top: 15%;
+        margin-bottom: 10%;
+        text-align: center;
+    }
+
+
+
+    .footer {
+        background-color: black;
+    }
+
+}
+
+@media screen and (min-width: 500px) {
+
+    .nav {
+        display: inline;
+        font-size: 140%;
+        margin-top: 30px;
+    }
+
+    .nav a {
+        padding: 0.5em;
+    }
+
+}
+
+@media screen and (min-width: 700px) {
+
+    .res2 {
+        float: left;
+        width: 40%;
+        margin-left: 15%;
+        margin-right: 3%;
+
+    }
+
+    .art {
+        padding: 1e
+    }
+
+    .row, .p {
+    font-size: 120%;
+    }
+
+    h1 {
+        max-width: 50%;
+        margin-left: 22.5%;
+        font-family: "Anton";
+        font-size: 150%;
+        text-rendering: optimizeLegibility;
+    }
+}
+
+@media screen and (min-width: 1000px) {
+
+    .header {
+    height: 150px;
+    
+    }
+
+    .logo {
+    height: 150px;
+    width: auto;
+    }
+
+    .nav {
+    margin-top: 70px;
+    font-size: 170%;
+    text-transform: uppercase;
+    margin-right: 0;
+    }
+
+    .nav a {
+    padding: 2em;
+    }
+
+    .nav a:hover {
+    border-bottom: 1px solid;
+    }
+
+    .row .p {
+        max-width: 80%;
+        margin-left: 10%
+    }
+
+    .wrapper {
+        max-width: 2000px;
+    }
+
+    .res2 {
+        float: none;
+        width: 80%;
+        margin-left: 10%;
+        margin-right: 0;
+    }
+
+    h1 {
+        font-size: 250%;
+        max-width: 100%;
+        margin-left: 0;
+
+
+    }
+
+
+}
+
+@media screen and (min-width: 1400px) {
+
+    .res2 {
+    float: left;
+    width: 40%;
+    margin: 4%;
+    margin-top: 0;
+
+}
+
+    .row {
+    margin-right: 4%;
+    }
+
+    .row .p {
+    margin-top: 3%;
+    font-size: 150%;
+    float: right;
+    display: contents;
+    
+}
+
+    h1 {
+    margin-bottom: 2%;
+}
+
+    #sub {
+    margin: 5%;
+    }
+
+    .footer {
+    visibility: hidden;
+    }
+}
